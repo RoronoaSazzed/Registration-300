@@ -1,3 +1,63 @@
+/* Custom Class Starts */
+
+/*
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+button{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0.67em;
+    margin-bottom: .67em;
+}
+
+h2 {
+    font-size: 45px;
+    margin-top: 0em;
+    margin-bottom: 1.1em;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+}
+
+h5 {
+    font-size: 15px;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+}
+
+h6 {
+    font-size: 11px;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
 .left{
     text-align: left;
 }
@@ -8,4 +68,230 @@
 
 .center{
     text-align: center;
+}
+
+.margin-30{
+    margin-bottom: 30px;
+}
+
+/* Custom Class Ends */
+
+
+/* First Section Starts */
+
+.headerDiv{
+    background-color: #ecf0f1;
+    min-height: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.homeCenter{
+    display: grid;
+    place-items: center right;
+}
+
+.homeButton{
+    padding: 15px 15px;
+    background-color: #222;
+    color: white;
+    transition: all 300ms;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 5px #222;
+}
+
+.homeButton:hover{
+    padding: 15px 35px;
+    background-color: #111;
+    color: white;
+}
+
+/* First Section Ends */
+
+/* Second Section Starts */
+
+.registrationVideoDiv{
+    min-height:0px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.videoResponsive{
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.videoResponsive iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 10px 20px #111;
+}
+
+.infoRegistration{
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #999;
+}
+
+.icon{
+    flex: 3;
+    flex-order: 1;
+    display: grid;
+    place-items: center;
+    background-color: #2980b9;
+}
+
+.icon i{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 60px;
+    background-color: #ecf0f1;
+}
+
+.infoTitle{
+    flex: 7;
+    flex-order: 2;
+    display: grid;
+    place-items: center;
+    background-color: #ecf0f1;
+    padding: 20px
+}
+
+/* Second Section Ends */
+
+
+/* Third Section Starts */
+
+.reservingDiv{
+    min-height: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #222;
+    color: white;
+}
+
+.reservingDiv h3{
+    text-shadow: 0px 2px 4px #222;
+}
+/* Third Section Ends */
+
+
+/* Fourth Section Starts */
+
+.creditEasyDiv{
+    min-height: 0px;
+}
+
+.sectionS{
+    padding: 50px;
+    color: white;
+    text-shadow: 0 2px 2px #222;
+}
+
+#sectionOne{
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#sectionTwo{
+    background-color: #339933;
+}
+
+/* Fourth Section Ends */
+
+
+/* Fifth Section Starts */
+
+.inputDiv{
+    min-height: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(34,34,34,0.85);
+    padding: 50px;
+}
+
+.crewInput{
+    flex: 1;
+    flex-order: 1;
+    display: flex;
+}
+
+.crewItemOne{
+    flex: 1;
+    flex-order: 1;
+    background-color: #ecf0f1;
+    padding: 5px;
+}
+
+.crewItemTwo{
+    flex: 2;
+    flex-order: 2;
+}
+
+.crewItemThree{
+    flex: 1;
+    flex-order: 3;
+}
+
+::placeholder{
+    padding-left: 20px;
+}
+
+/* Fifth Section Ends */
+
+/* Sixth Section Starts */
+
+.sixDiv{
+    min-height: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #2980b9;
+    color: white;
+}
+
+.circle{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Sixth Section Ends */
+
+/* Seventh Section Starts */
+
+.footerDiv{
+    min-height: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #222;
+    color: #ecf0f1;
+}
+
+.footerDiv a{
+    color: white;
+}
+
+@media (max-width: 575.98px) {
+    .crewInput{
+        flex-direction: column;
+    }
 }
