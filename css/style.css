@@ -168,8 +168,8 @@ p{
 
 .reservingDiv{
     min-height: 0px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 45px;
+    padding-bottom: 15px;
     background-color: #222;
     color: white;
 }
@@ -187,7 +187,7 @@ p{
 }
 
 .sectionS{
-    padding: 50px;
+    padding: 10px;
     color: white;
     text-shadow: 0 2px 2px #222;
 }
@@ -250,6 +250,7 @@ p{
 
 ::placeholder{
     padding-left: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* Fifth Section Ends */
@@ -293,5 +294,14 @@ p{
 @media (max-width: 575.98px) {
     .crewInput{
         flex-direction: column;
+    }
+    
+    .termConditions,
+    .bottomNav{
+        text-align: left;
+    }
+    
+    .termConditions{
+        margin-bottom: 15px;
     }
 }
